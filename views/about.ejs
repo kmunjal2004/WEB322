@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Kalash Munjal">
+        <link rel="stylesheet" href="/css/main.css" />
+        <title>About</title>
+    </head>
+    <body class="grid grid-rows-[auto,1fr,auto] min-h-screen">
+        <header>
+            <%- include('partials/navbar', {page: '/about'}) %>
+        </header>
+        <main>
+            <div class="container mx-auto p-4">
+                <div class="hero bg-blue-500 text-white p-10 text-center mb-10">
+                    <div class="hero-content text-center">
+                        <div class="max-w-md">
+                            <h1 class="text-4xl mb-4">About</h1>
+                            <p class="mb-4">My Journey Towards Becoming a Software Developer and Embedded Software Engineer</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="hero min-h-screen bg-base-200 gap-4 flex flex-row">
+                    <div>
+                        <img class="w-full rounded-lg" src="/images/kalash.jpg" alt="kalash" class="w-full">
+                    </div>
+                    <div class="ml-4 col-span-1 flex flex-col justify-top">
+                        <h2 class="text-3xl mb-4">Hello, I'm Kalash Munjal!</h2>
+                        <p class="mb-4">Speaking about myself I love cars and hence I like to drive a lot. I am currently in the computer programming diploma in Seneca College. </p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </main>
+
+        <%- include('partials/footer') %>
+        
+    </body>
+</html>
