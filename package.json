@@ -6,7 +6,7 @@
   "scripts": {
     "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "npm run tw:build", 
+    "prestart": "npm run tw:build"
   
   },
   "author": "Kalash Munjal",
